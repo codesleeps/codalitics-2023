@@ -1,0 +1,45 @@
+   /* RESET */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* GRID */
+main{
+  display: grid;
+  grid-gap: 5px;
+  height: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows:  repeat(7, 1fr);
+  grid-template-areas:
+  "h h h h h h h h h h h h"
+  "a a a a a a a a a a a a"
+  "w w w w w w w w w w w w"
+  "c c c c c c c c c c c c"
+  "f f f f f f f f f f f f" ;
+}
+   /* GRID  HEADER SECTION */
+.header-section{
+  grid-area: h;
+  background-color: lightcoral;
+}
+/* GRID ABOUT SECTION  */
+.about-section{
+  grid-area: a;
+  background-color: brown;
+}
+  /* GRID WORK SECTION */
+.work-section{
+  grid-area: w;
+  background-color: chocolate;
+}
+ /* GRID CONTACT SECTION  */
+.contact-section{
+  grid-area: c;
+  background-color: darkgoldenrod;
+}
+/* GRID FOOTER SECTION */
+.footer{
+  grid-area: f;
+  background-color: rgb(31, 31, 31);
+}
