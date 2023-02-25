@@ -10,7 +10,7 @@ main{
   grid-gap: 5px;
   height: 100%;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows:  repeat(7, 1fr);
+  /* grid-template-rows:  repeat(5, 1fr); */
   grid-template-areas:
   "h h h h h h h h h h h h"
   "a a a a a a a a a a a a"
@@ -31,7 +31,7 @@ main{
 nav{
   height: 120px;
   width: 100%;
-  background-color: black;
+  background-color: rgb(26, 25, 25);
 }
 article{
   color: white;
@@ -53,24 +53,40 @@ a{
   color: white; 
   text-decoration: none;
 }
-
+h2{
+  text-align: center;
+  color: white;
+}
 /* GRID ABOUT SECTION  */
 .about-section{
   grid-area: a;
   background-color: brown;
+  height: 600px;
+  width: 100%; 
 }
+
+
+
+
+
   /* GRID WORK SECTION */
 .work-section{
   grid-area: w;
   background-color: chocolate;
+  height: 600px;
+  width: 100%; 
 }
  /* GRID CONTACT SECTION  */
 .contact-section{
   grid-area: c;
   background-color: darkgoldenrod;
+  height: 600px;
+  width: 100%; 
 }
 /* GRID FOOTER SECTION */
 .footer{
   grid-area: f;
   background-color: rgb(31, 31, 31);
+  height: 600px;
+  width: 100%; 
 }
