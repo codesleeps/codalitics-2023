@@ -17,12 +17,43 @@ main{
   "w w w w w w w w w w w w"
   "c c c c c c c c c c c c"
   "f f f f f f f f f f f f" ;
+  
 }
    /* GRID  HEADER SECTION */
 .header-section{
   grid-area: h;
   background-color: lightcoral;
+  height: 600px;
+  width: 100%; 
 }
+/* navigation */
+
+nav{
+  height: 120px;
+  width: 100%;
+  background-color: black;
+}
+article{
+  color: white;
+  padding: .9rem;
+}
+.avatar{
+  display: inline-block;
+}
+
+ul{
+  float: right;
+}
+
+a{
+  display: inline-block;
+  padding: 3rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: white; 
+  text-decoration: none;
+}
+
 /* GRID ABOUT SECTION  */
 .about-section{
   grid-area: a;
