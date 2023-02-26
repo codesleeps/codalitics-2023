@@ -1,52 +1,93 @@
 *{
   margin: 0;
   padding: 0;
-  color: rgb(253, 255, 255);
+  color: rgb(10, 80, 201);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   list-style: none;
   text-decoration: none;
+  line-height: 1.5em;
+  /* background-color: rgb(254, 252, 252); */
 }
 
+figure, article {
+  display: inline-block;
+}
 
 main {
-  
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr auto;
 }
 
-article{
-  position: relative;
+img {
+  border-radius: 6px;
+
+
+}
+h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 1em;
 }
 
 
 .nav-bar {
-  background-color: black;
-}
+  width: 100%;
+  background-color: rgb(16, 18, 35);
+  grid-column:  1 / 5;
+  
 
+}
 
 .nav-items {
-  background-color: rgb(56, 57, 57);
-  
+  font-size: 1.3em;
+  margin-bottom: 1.5em;
+  text-align: end;
 }
+ a {
+  margin: 1em;
+ }
 
+#hero {
+  width: 100%;
+  grid-column: 1 / 5;
+  background-image: url(/assets/images/02-hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+
+}
 
 .about {
-  background-color: rgb(67, 67, 67);
-}
-
-.work {
-  background-color: rgb(92, 91, 91);
-
+  background-color: rgb(255, 254, 254);
+  grid-column: 2 / 5;
 }
 .extra {
-  background-color: darkgrey;
+  grid-column: 2 / 5;
+
 }
 .extra1 {
-  background-color: rgb(206, 205, 203);
+  grid-column: 2 / 5;
+
 }
 
 .projects {
-  background-color: rgb(124, 124, 124);
+  grid-column: 1 / 2;
+  grid-row: 3 / 6;
+  padding: .5em;
+}
+
+.projects img {
+  padding: .7em;
 }
 
 .footer {
-  background-color: black;
+  background-color: rgb(16, 18, 35);
+  grid-column: 1 / 5;
+  padding: .7em;
 }
