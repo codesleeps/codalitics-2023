@@ -226,6 +226,28 @@ figcaption {
   color: white;
 }
 
+/* 
+@media (min-width:450px) {
+  .hero-title {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-size: 3rem;
+    background-color: rgb(250, 253, 254);
+    border-radius: 8px;
+    padding: 0 .2em;
+  }
+  .responsive-design-title {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    padding: 0 .2em;
+    font-size: 1.3em;
+    background-color: rgb(250, 253, 254);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+} */
 
 
 @media (max-width: 1000px) {
@@ -266,7 +288,7 @@ figcaption {
   .responsive-design-title {
     position: absolute;
     left: 0;
-    top: 35%;
+    top: 25%;
     padding: 0 .2em;
     font-size: 1.3em;
     background-color: rgb(250, 253, 254);
@@ -293,8 +315,8 @@ figcaption {
   }
   .project-dark {
     display: none;
-  
   }
-  
-
 }
+
+
+
