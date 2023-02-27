@@ -86,7 +86,7 @@ figcaption {
 #hero {
   width: 100%;
   grid-column: 1 / 5;
-  background-image: url(/assets/images/02-hero-bg.jpg);
+  background-image: url(./images/02-hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
