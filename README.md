@@ -49,7 +49,7 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application. 
 
-### https://codesleeps.github.io/myPortfolio2023/ ✅
+### https://codesleeps.github.io/codalitics-2023/ ✅
    
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
    
