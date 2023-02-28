@@ -1,9 +1,10 @@
 /* Universal Selectors */
-*{
+* {
   margin: 0;
   padding: 0;
   color: rgb(75, 135, 240);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
   line-height: 1.5em;
 }
@@ -22,24 +23,26 @@ h1 {
   font-size: 1.5rem;
 }
 
-
-.projects p, h2,
-.about p, h2,
-.resume p, h2,
-.responsive-design p, h2 {
-  padding: 0 1em 1em .5em;
+.projects p,
+h2,
+.about p,
+h2,
+.resume p,
+h2,
+.responsive-design p,
+h2 {
+  padding: 0 1em 1em 0.5em;
   color: white;
- }
+}
+h3 {
+  display: inline;
+}
 /* typo end */
 
 /* html selectors */
 a {
   margin: 1em;
-  transition: all .3s ease-in-out;
- }
-
-h3 {
-  display: inline;
+  transition: all 0.3s ease-in-out;
 }
 
 img {
@@ -55,9 +58,9 @@ span {
   font-size: 1.5em;
 }
 
- a:hover {
+a:hover {
   color: white;
- }
+}
 
 figcaption a {
   color: green;
@@ -68,10 +71,13 @@ figcaption {
 }
 
 /* navigation */
+.avatar {
+  padding: .8em;
+}
 .nav-bar {
   width: 100%;
   background-color: rgb(7, 7, 47);
-  grid-column:  1 / 5;
+  grid-column: 1 / 5;
 }
 
 .nav-items {
@@ -96,11 +102,11 @@ figcaption {
 .hero-title {
   position: absolute;
   left: 75%;
-  top: 35%;
+  top: 55%;
   font-size: 2rem;
   background-color: rgb(250, 253, 254);
   border-radius: 8px;
-  padding: 0 .2em;
+  padding: 0 0.2em;
 }
 /* about */
 .about {
@@ -115,7 +121,7 @@ figcaption {
   position: absolute;
   top: 35%;
   left: 0;
-  padding: 0 .2em;
+  padding: 0 0.2em;
   font-size: 1.3em;
   background-color: rgb(250, 253, 254);
   border-top-right-radius: 6px;
@@ -134,7 +140,7 @@ figcaption {
   position: absolute;
   top: 35%;
   left: 0;
-  padding: 0 .2em;
+  padding: 0 0.2em;
   font-size: 1.3em;
   background-color: rgb(250, 253, 254);
   border-top-right-radius: 6px;
@@ -153,7 +159,7 @@ figcaption {
   position: absolute;
   left: 0;
   top: 35%;
-  padding: 0 .2em;
+  padding: 0 0.2em;
   font-size: 1.3em;
   background-color: rgb(250, 253, 254);
   border-top-right-radius: 6px;
@@ -165,16 +171,18 @@ figcaption {
   position: relative;
   grid-column: 1 / 2;
   grid-row: 3 / 6;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   text-align: center;
-  padding: 4em 1em 0 0;
+}
+.projects p {
+  padding: 3em 1em;
+
 }
 /* css code snippets */
 .project-code {
   position: absolute;
-  left: 51%;
+  left: 50%;
   top: 4%;
-  padding: 0 .2em;
+  padding: 0 0.2em;
   background-color: white;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -182,149 +190,135 @@ figcaption {
 /* simple counter  */
 .project-counter {
   position: absolute;
-  left: 44%;
-  bottom: 28.5%;
-  padding: 0 .2em;
+  left: 48%;
+  bottom: 41%;
+  padding: 0 0.2em;
   background-color: white;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* light mode */
-.project-light {
-  position: absolute;
-  top: 2%;
-  left: 49.7%;
-  padding: 0 .2em;
-  background-color: white;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-/* dark mode */
-.project-dark {
-  position: absolute;
-  top: 38%;
-  left: 45%;
-  padding: 0 .2em;
-  background-color: white;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
+
 /* footer */
 .footer {
   background-color: rgb(7, 7, 47);
   grid-column: 1 / 5;
   height: 500px;
-  padding: em;
 }
-.footer-avatar {
-  margin-left: 49em;
-  padding: .5em;
-}
+
 /* contact  */
 .contact-info {
   text-align: center;
   line-height: 2em;
   font-size: 1.4em;
-  margin-bottom: 5em;
+  margin-top: 3em;
 }
 .contact-info h2 {
   display: inline-block;
-  margin: 0;
-  padding: 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
   color: rgb(249, 249, 249);
-
 }
 
 .contact-info h2:hover {
   color: rgb(75, 135, 240);
-  
-} 
-
-.footer-avatar {
-  margin-top: 1em;
 }
 
 .external-links {
   text-align: center;
-  margin-top: 3em;
-
+  margin-top: 8em;
 }
-.copyright h6{
+
+.copyright h6 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 3em;
   color: white;
 }
 
+/* media queries */
 
-@media (max-width: 1000px) {
+@media (max-width: 970px) {
   main {
-    display: block; 
+    display: block;
+    gap: 0;
   }
+
+  .contact-info {
+    margin: 0;
+    padding-bottom: 3em;
+  }
+
   .hero-title {
     position: absolute;
-    left: 18%;
-    top: 35%;
-    font-size: 3rem;
+    left: 25%;
+    top: 55%;
+    font-size: 2.5rem;
     background-color: rgb(250, 253, 254);
-    border-radius: 8px;
-    padding: 0 .2em;
+    padding: 0 0.2em;
+  }
+
+  .about {
+    border-radius: 0;
   }
 
   .about-title {
     position: absolute;
     top: 25%;
     left: 0;
-    padding: 0 .2em;
+    padding: 0 0.2em;
     font-size: 1.3em;
     background-color: rgb(250, 253, 254);
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
+  }
+
+  .resume {
+    border-radius: 0;
   }
 
   .resume-title {
     position: absolute;
     top: 25%;
     left: 0;
-    padding: 0 .2em;
+    padding: 0 0.2em;
     font-size: 1.3em;
     background-color: rgb(250, 253, 254);
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
   }
+
+  .responsive-design {
+    border-radius: 0;
+  }
+
   .responsive-design-title {
     position: absolute;
     left: 0;
     top: 25%;
-    padding: 0 .2em;
+    padding: 0 0.2em;
     font-size: 1.3em;
     background-color: rgb(250, 253, 254);
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
   }
+
   .project-code {
     position: absolute;
     left: 50%;
     top: 4%;
-    padding: 0 .2em;
+    padding: 0 0.2em;
     background-color: white;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
+
   .project-hex {
     position: absolute;
     left: 51%;
     bottom: 25%;
-    padding: 0 .2em;
+    padding: 0 0.2em;
     background-color: white;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
-  .project-dark {
-    display: none;
-  }
+  
 }
-
-
-
