@@ -77,7 +77,7 @@ You are required to submit BOTH of the following for review:
     
     ![mobileView4-600](https://user-images.githubusercontent.com/125808990/221627664-c2700a42-63d6-4567-99a4-a401dcefe8e9.png) 
     
-    ## Projects 
+    ### Projects 
     
        Both checked and working 
     
