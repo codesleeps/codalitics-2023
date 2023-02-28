@@ -53,7 +53,7 @@ You are required to submit BOTH of the following for review:
    
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
    
-### https://github.com/codesleeps/myPortfolio2023 ✅
+### https://github.com/codesleeps/codalitics-2023 ✅
 
 ### Screenshots large (1250px) screen and mobile (600px)
 
@@ -76,4 +76,16 @@ You are required to submit BOTH of the following for review:
   
     
     ![mobileView4-600](https://user-images.githubusercontent.com/125808990/221627664-c2700a42-63d6-4567-99a4-a401dcefe8e9.png) 
+    
+    ## Projects 
+    
+       Both checked and working 
+    
+       CSS Code Snippets: 
+       
+       https://codesleeps.github.io/css-code-snippets/
+       
+       Simple Counter:
+       
+       https://codesleeps.github.io/simple-counter/
 
