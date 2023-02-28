@@ -161,11 +161,10 @@ figcaption {
 }
 /* PROJECTS */
 .projects {
-  background-color: rgb(26, 26, 27);
+  background-color: rgb(7, 7, 47);
   position: relative;
   grid-column: 1 / 2;
   grid-row: 3 / 6;
-  border-radius: 8px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   text-align: center;
   padding: 4em 1em 0 0;
@@ -214,40 +213,49 @@ figcaption {
 .footer {
   background-color: rgb(7, 7, 47);
   grid-column: 1 / 5;
-  padding: .7em;
+  height: 500px;
+  padding: em;
+}
+.footer-avatar {
+  margin-left: 49em;
+  padding: .5em;
 }
 /* contact  */
-.contact-info h3{
+.contact-info {
+  text-align: center;
+  line-height: 2em;
+  font-size: 1.4em;
+  margin-bottom: 5em;
+}
+.contact-info h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
   transition: all .3s ease-in-out;
   cursor: pointer;
+  color: rgb(249, 249, 249);
+
 }
 
-.contact-info h3:hover {
+.contact-info h2:hover {
+  color: rgb(75, 135, 240);
+  
+} 
+
+.footer-avatar {
+  margin-top: 1em;
+}
+
+.external-links {
+  text-align: center;
+  margin-top: 3em;
+
+}
+.copyright h6{
+  text-align: center;
+  margin-top: 2em;
   color: white;
 }
-
-/* 
-@media (min-width:450px) {
-  .hero-title {
-    position: absolute;
-    left: 5%;
-    top: 35%;
-    font-size: 3rem;
-    background-color: rgb(250, 253, 254);
-    border-radius: 8px;
-    padding: 0 .2em;
-  }
-  .responsive-design-title {
-    position: absolute;
-    left: 0;
-    top: 25%;
-    padding: 0 .2em;
-    font-size: 1.3em;
-    background-color: rgb(250, 253, 254);
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-  }
-} */
 
 
 @media (max-width: 1000px) {
