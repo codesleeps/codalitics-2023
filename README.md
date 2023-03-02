@@ -60,23 +60,7 @@ You are required to submit BOTH of the following for review:
    ![lg-screenView](https://user-images.githubusercontent.com/125808990/221626747-a0975318-66ce-4a77-a001-70072a66db6d.png)
 
     
-   ![lg-screenView2](https://user-images.githubusercontent.com/125808990/221626888-267090ea-1f34-4315-808a-51db59587f55.png)
-
- 
-   ![lg-screenView3](https://user-images.githubusercontent.com/125808990/221626909-3ebf68bb-7990-423f-af19-3a58ffe14dcd.png)
-
-     
-   ![mobileView-600](https://user-images.githubusercontent.com/125808990/221627266-2be885bf-9c52-44b5-8af1-774f1973a05b.png)
-
-     
-   ![mobileView2-600](https://user-images.githubusercontent.com/125808990/221627443-3c23be41-9c87-4dc5-9a48-7012d024e8b1.png)
-
-    
-   ![mobileView3-600](https://user-images.githubusercontent.com/125808990/221627530-a634ef72-543f-4531-b62c-9cdbc116074f.png)
   
-    
-   ![mobileView4-600](https://user-images.githubusercontent.com/125808990/221627664-c2700a42-63d6-4567-99a4-a401dcefe8e9.png) 
-    
 ### Projects 
     
    Both checked and working 
