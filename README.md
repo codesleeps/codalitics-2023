@@ -88,4 +88,12 @@ You are required to submit BOTH of the following for review:
        Simple Counter:
        
        https://codesleeps.github.io/simple-counter/
+       
+### Graded 97/100  more than expected
 
+    Great work on the challenge! Your page contains all of the required sections, nav links, projects, and your name and avatar. Its nav elements link to all of their corresponding page sections, its first project image is larger than the others, and clicking a project links to its deployed site. The page design is mobile responsive.
+
+Your code repo has a unique name, a proper file structure, and detailed code comments, but its README lacks working screenshots (and a more straightforward description of what the code 'is' or 'does' would be preferred to rehashing the assignment criteria) and its commit messages ('update', 'final version' etc) lack detail. When making commit messages, try to briefly communicate what code has been changed and in which files (ie: ‘Added comments to style.css’). That way, someone reading your commit messages can understand how the code has evolved without needing to look at the files themselves.
+
+Also, try to avoid using language like 'final', 'completed', and 'finished' when making commit messages. In my experience, 'final' commits are rarely final (this repo as an example), and as we know, even well-established code still receives updates (HTML 5, Windows 11 etc).
+ 
