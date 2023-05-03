@@ -1,4 +1,7 @@
-# myPortfolio2023
+# myPortfolio2023 - (PRACTICE)
+
+[![License](https://img.shields.io/packagist/l/dingo/api.svg?style=flat-square)](LICENSE)
+
 
 ## Acceptance Criteria
 
