@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/packagist/l/dingo/api.svg?style=flat-square)](LICENSE)
 
+![Visitor Count](https://profile-counter.glitch.me/codesleeps/count.svg)
+
 
 ## Acceptance Criteria
 
@@ -59,11 +61,15 @@ You are required to submit BOTH of the following for review:
 
 ### Screenshots screen size mobile (600px)
 
-   ![Screenshot 2023-03-02 at 12 38 29](https://user-images.githubusercontent.com/125808990/222432463-e61564e0-1508-4088-bd27-1081ef0f8dbe.png)
-   ![Screenshot 2023-03-02 at 12 42 11](https://user-images.githubusercontent.com/125808990/222432573-4ecdd03b-8b88-47e7-a68e-ce07c320ecb7.png)
-   ![Screenshot 2023-03-02 at 12 42 42](https://user-images.githubusercontent.com/125808990/222432579-e2e282ca-7864-442f-aa06-fbe84ca61e94.png)
-   ![Screenshot 2023-03-02 at 12 42 54](https://user-images.githubusercontent.com/125808990/222432584-a2e823fc-e751-4a7c-aa50-66cdf610af83.png)
-   ![Screenshot 2023-03-02 at 12 43 10](https://user-images.githubusercontent.com/125808990/222432586-a8db8ece-9752-4279-95b9-afb2feaf199a.png)
+   [Screenshot 1](https://user-images.githubusercontent.com/125808990/222432463-e61564e0-1508-4088-bd27-1081ef0f8dbe.png)
+   
+   [Screenshot 2](https://user-images.githubusercontent.com/125808990/222432573-4ecdd03b-8b88-47e7-a68e-ce07c320ecb7.png)
+   
+   [Screenshot 3](https://user-images.githubusercontent.com/125808990/222432579-e2e282ca-7864-442f-aa06-fbe84ca61e94.png)
+   
+   [Screenshot 4](https://user-images.githubusercontent.com/125808990/222432584-a2e823fc-e751-4a7c-aa50-66cdf610af83.png)
+   
+   [Screenshot 5](https://user-images.githubusercontent.com/125808990/222432586-a8db8ece-9752-4279-95b9-afb2feaf199a.png)
 
 ### Projects 
     
